@@ -1,0 +1,30 @@
+{
+  "name": "gql-admin",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "[ -d ./node_modules ] && rm -rf ./node_modules;[ -d ./package-lock.json ] && rm -rf ./package-lock.json; npm install"
+  },
+  "author": "Author",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "@hapi/joi-date": "^1.3.0",
+    "apollo-server": "^2.9.16",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.3.0",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.5.10",
+    "node-async-loop": "^1.2.2",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2"
+  }
+}
